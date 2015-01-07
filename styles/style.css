@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800);
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100%;
+	font-family: Merriweather, serif;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #666;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: "Merriweather Sans", sans;
+}
+
+header {
+	background: url("../images/loki-banner.jpg");
+	padding-bottom: 25%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+main {
+	max-width: 60em;
+	margin: -4em auto 0;
+	position: relative;
+	padding: 0 2em;
+}
+
+aside {
+	width: 15em;
+	padding: 0 5em 0 0;
+	position: absolute;
+}
+
+img {
+	width: 8em;
+	border-radius: 100%;
+	border: 5px #fff solid;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 1.1em;
+	font-weight: 800; 
+	letter-spacing: .1em;
+	font-family: "Merriweather Sans", sans;
+}
+
+p {
+	font-size: 1em;
+	max-width: 30em;
+	line-height: 1.5em;
+}
+
+.desc {
+	color: #aaa;
+}
+
+#search {
+	border-top: 1px solid #eee;
+	padding-top: 2em;
+	width: 100%;
+}
+
+h3 {
+	font-size: .85em;
+	letter-spacing: .1em;
+	color: #bbb;
+	font-weight: 700;
+}
+
+input {
+	font-size: 1em;
+	width: 100%;
+	margin-top: 1.5em;
+	box-shadow: none;
+	border: 1px solid #ddd;
+	border-radius: .3em;
+	line-height: 1.5em;
+}
+
+article {
+	padding: 9em 0 0;
+	max-width: 45em;
+	margin-left: 15em;
+}
+
+h2 {
+	font-size: 2.5em;
+	max-width: 30em;
+	color: #444;
+}
+
+article p {
+	margin: 1.5em 0;
+}
